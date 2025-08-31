@@ -1,0 +1,36 @@
+.root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+}
+.gridContainerReversed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "right left";
+}
+
+.left{
+    grid-area: left;
+    width: 200px;
+    height: 200px;
+    background: red;
+    transform: scale(1);
+}
+
+.right{
+    grid-area: right;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform: scale(1);
+}

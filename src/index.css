@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "CCMaladroit";
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Crunchy Time";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/crunchy-time-cdnfonts/CrunchyTime.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "CCMaladroit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/CCMaladroit.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Chunq";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/chunq-cdnfonts/Chunq.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Blow Brush";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/blowbrush.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Kids Magazine";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/kids_magazine/KidsMagazine.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Creepster Caps";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/CreepsterCaps.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "chunq";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Chunq.ttf") format("woff");
+}

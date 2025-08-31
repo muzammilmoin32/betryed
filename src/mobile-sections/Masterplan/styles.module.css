@@ -1,0 +1,48 @@
+.root {
+  min-height: 100vh;
+  background-image: url("../../assets/masterplan/crowd-frogs.png"), url("../../assets/masterplan/masterplan-bg.png");
+  background-repeat: no-repeat;
+  /* background-size: contain,cover; */
+  background-size: contain, cover;
+  background-position: 0% 100%, center;
+}
+
+.logo {
+  width: 35%;
+  height: auto;
+}
+
+.mainContainer {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer > h1 {
+  font-family: "Chunq", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  -webkit-text-stroke: 2px #000;
+  transform: rotate(-5deg);
+  padding: 0;
+}
+
+.quotesContainer {
+  padding-top: 6%;
+  padding-bottom: 23%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quotesContainer img {
+  width: 100%;
+}
+
+.masterplanbottom {
+  width: 100%;
+  margin-top: -20px;
+  position: relative;
+  /* top: -90%; */
+}

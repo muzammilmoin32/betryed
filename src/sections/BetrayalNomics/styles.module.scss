@@ -1,0 +1,115 @@
+.root {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background-image: url(./../../assets/betrayalNomics/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Chunq";
+}
+
+.pepeStonk {
+  position: absolute;
+  width: 30%;
+  bottom: -16%;
+  left: 2%;
+}
+
+.heading {
+  --stroke: 8px;
+  --stroke-negative: -8px;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 70px;
+  color: white;
+  text-shadow: var(--stroke-negative) var(--stroke-negative) #000000, var(--stroke-negative) 0px #000000,
+    var(--stroke-negative) var(--stroke) #000000, 0px var(--stroke-negative) #000000, 0px var(--stroke) #000000,
+    var(--stroke) var(--stroke-negative) #000000, var(--stroke) 0px #000000, var(--stroke) var(--stroke) #000000;
+  letter-spacing: var(--stroke);
+}
+
+.percentage {
+
+  // transform: translateX(-50%);
+  font-family: "Kids Magazine";
+  font-size: 5rem !important;
+  color: white;
+  background-color: #000000;
+  padding: 8px 40px;
+
+  @media only screen and (max-width: 1460px) {
+    font-size: 2rem !important;
+  }
+}
+
+.helperText {
+  position: absolute;
+  top: calc(24% + 110px);
+  left: 50%;
+  transform: translateX(-20%);
+  font-size: 45px;
+  color: white;
+  background-color: #000000;
+  padding: 8px 12px;
+
+  @media only screen and (max-width: 1460px) {
+
+    left: 48%;
+    top: calc(14% + 110px);
+  }
+
+}
+
+.description {
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  transform: translateX(-20%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  padding: 8px 12px;
+  text-align: center;
+  width: 68%;
+  letter-spacing: 1px;
+  
+  @media only screen and (max-width: 1460px) {
+    
+    font-size: 20px;
+    top: 44%
+  }
+
+}
+
+@media only screen and (min-width: 1500px) {
+  .percentage {
+    font-size: 60px;
+    padding: 12px 50px;
+  }
+
+  .helperText {
+    top: calc(24% + 135px);
+    font-size: 55px;
+  }
+
+  .description {
+    // font-size: 40px;
+    // width: 730px;
+    padding: 0px;
+    letter-spacing: 1px;
+  }
+}
+
+
+.sale {
+  display: flex;
+  gap: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 21%;
+  left: 46%;
+}

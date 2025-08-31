@@ -1,0 +1,156 @@
+.root {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 150vh;
+  background-image: url(./../../assets/betrayalNomics/bgMobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: "Chunq";
+}
+
+.pepeStonk {
+  position: absolute;
+  width: 45%;
+  bottom: -7%;
+  left: -15%;
+}
+
+.heading {
+  --stroke: 4px;
+  --stroke-negative: -4px;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: white;
+  text-shadow: var(--stroke-negative) var(--stroke-negative) #000000, var(--stroke-negative) 0px #000000,
+    var(--stroke-negative) var(--stroke) #000000, 0px var(--stroke-negative) #000000, 0px var(--stroke) #000000,
+    var(--stroke) var(--stroke-negative) #000000, var(--stroke) 0px #000000, var(--stroke) var(--stroke) #000000;
+  letter-spacing: var(--stroke);
+}
+
+.percentage {
+  /* position: absolute; */
+  top: 16px;
+  left: 16.3px;
+  transform: translateX(-50%);
+  font-family: "Kids Magazine";
+  font-size: 50px;
+  color: white;
+  background-color: #000000;
+  padding: 10px;
+  position: relative;
+}
+
+.helperText {
+  position: absolute;
+  top: calc(24% + 110px);
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  font-size: 40px !important;
+  color: white;
+  width: 200px;
+  text-align: center;
+  background-color: #000000;
+  padding: 8px 12px;
+}
+
+.helperText2 {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  font-size: 60px;
+  color: white;
+  background-color: #000000;
+  padding: 8px 12px;
+  width: 260px;
+}
+
+.description {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 350px;
+  --stroke: 2px;
+  --stroke-negative: -2px;
+  text-shadow: var(--stroke-negative) var(--stroke-negative) #000000, var(--stroke-negative) 0px #000000,
+    var(--stroke-negative) var(--stroke) #000000, 0px var(--stroke-negative) #000000, 0px var(--stroke) #000000,
+    var(--stroke) var(--stroke-negative) #000000, var(--stroke) 0px #000000, var(--stroke) var(--stroke) #000000;
+  letter-spacing: var(--stroke);
+}
+
+@media only screen and (min-width: 1500px) {
+  // .percentage {
+  //   font-size: 60px;
+  //   padding: 12px 50px;
+  // }
+
+  .helperText {
+    top: calc(24% + 135px);
+    font-size: 55px;
+  }
+
+  .description {
+    font-size: 40px;
+    width: 730px;
+    padding: 0px;
+    letter-spacing: 1px;
+  }
+}
+
+.sale {
+  display: flex;
+  gap: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 21%;
+  left: 46%;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    --stroke: 4px;
+    --stroke-negative: -4px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: white;
+    text-shadow: var(--stroke-negative) var(--stroke-negative) #000000, var(--stroke-negative) 0px #000000,
+      var(--stroke-negative) var(--stroke) #000000, 0px var(--stroke-negative) #000000, 0px var(--stroke) #000000,
+      var(--stroke) var(--stroke-negative) #000000, var(--stroke) 0px #000000, var(--stroke) var(--stroke) #000000;
+    letter-spacing: var(--stroke);
+  }
+
+  .sale {
+    display: flex;
+    gap: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+  }
+
+  .helperText {
+    top: calc(18% + 125px);
+    font-size: 55px;
+    left: 30%;
+  }
+
+  .description {
+    top: 42%;
+  }
+}

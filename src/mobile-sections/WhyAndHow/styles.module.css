@@ -1,0 +1,15 @@
+.root {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/src/assets/section2/mobile-assets/cyanbgnew.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.sectionNew {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/src/assets/section2/mobile-assets/sectionNew.png");
+  background-size: 100% 107%;
+  background-repeat: no-repeat;
+}

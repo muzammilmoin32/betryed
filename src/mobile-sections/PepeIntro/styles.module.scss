@@ -1,0 +1,14 @@
+.root {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/section1/mobile-assets/mobile-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+}

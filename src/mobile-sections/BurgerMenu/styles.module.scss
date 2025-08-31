@@ -1,0 +1,71 @@
+.root {
+  position: fixed;
+  z-index: 500;
+  right: 0px;
+  padding: 16px;
+
+
+}
+
+.backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  background-color: #00000044;
+
+  &.inActive {
+    transform: translateX(100%);
+  }
+}
+
+.navbar {
+  z-index: 9999;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  background-color: #0b225f;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 24px;
+  font-size: 20px;
+  color: white;
+  --stroke: 2px;
+  --stroke-negative: -2px;
+  text-shadow: var(--stroke-negative) var(--stroke-negative) #000000, var(--stroke-negative) 0px #000000,
+    var(--stroke-negative) var(--stroke) #000000, 0px var(--stroke-negative) #000000, 0px var(--stroke) #000000,
+    var(--stroke) var(--stroke-negative) #000000, var(--stroke) 0px #000000, var(--stroke) var(--stroke) #000000;
+  letter-spacing: var(--stroke);
+  transition: all 0.3s;
+
+  li {
+    margin: 16px 0px;
+    width: 100%;
+  }
+
+  &.inActive {
+    transform: translateX(100%);
+  }
+}
+
+.logo {
+  padding: 0px 24px;
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 32px;
+
+  img {
+    width: 32px;
+  }
+}

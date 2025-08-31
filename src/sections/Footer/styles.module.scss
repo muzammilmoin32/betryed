@@ -1,0 +1,47 @@
+.container {
+  background-size: cover;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: space-between;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-family: Chunq;
+  letter-spacing: 3px;
+  font-size: 24px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  max-width: 1600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.socials {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  // transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1450px) {
+  .getbetrayednow {
+    width: 40%;
+    margin-top: 10%;
+  }
+}

@@ -1,0 +1,157 @@
+.root {
+  position: relative;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../../assets/section2/section2-bg.png");
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chemical_pattern_1 {
+  width: 50%;
+  left: 0;
+  background-image: url("../../assets/section2/chemical-pattern-1.svg");
+  z-index: 0;
+}
+
+.chemical_pattern_2 {
+  width: 35%;
+  right: 0;
+  background-position: right;
+  background-image: url("../../assets/section2/chemical-pattern-2.svg");
+  z-index: 0;
+}
+
+.professorImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 90%;
+}
+
+.professorImgAA {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 70%;
+  opacity: 0;
+}
+
+.computerImg {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  height: 60%;
+  bottom: 0;
+}
+
+.comicContainer {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 12.5%;
+  left: 12.5%;
+}
+
+.comic_1 {
+  position: absolute;
+  width: 49%;
+  height: 25%;
+  top: 0;
+  left: 0;
+}
+
+.comic_1_AA {
+  position: absolute;
+  width: 55%;
+  height: 29%;
+  top: -4.5%;
+  left: -7%;
+  opacity: 0;
+}
+
+.comic_2 {
+  position: absolute;
+  width: 49%;
+  height: 30%;
+  top: -1.5%;
+  right: 0;
+}
+
+.comic_2_AA {
+  position: absolute;
+  width: 55%;
+  height: 25.5%;
+  top: 1%;
+  right: -4%;
+  z-index: 10;
+  opacity: 0;
+}
+
+.comic_3 {
+  position: absolute;
+  width: 32%;
+  height: 73%;
+  bottom: 0;
+  left: 0;
+}
+
+.comic_4 {
+  position: absolute;
+  width: 32%;
+  height: 34%;
+  bottom: 39%;
+  right: 34%;
+}
+
+.comic_5 {
+  position: absolute;
+  width: 32%;
+  height: 36%;
+  top: 27%;
+  right: 0%;
+}
+
+.comic_6 {
+  position: absolute;
+  width: 32%;
+  height: 38%;
+  bottom: 0;
+  left: 34%;
+}
+
+.comic_7 {
+  position: absolute;
+  width: 32%;
+  height: 35%;
+  bottom: 0;
+  right: 0;
+}
+
+.scrollBtn {
+  position: absolute;
+  bottom: -10%;
+  right: 1.2%;
+  width: 29%;
+  height: 15%;
+  cursor: pointer;
+}
+
+.bottomText {
+  position: absolute;
+  bottom: -11%;
+  left: -2%;
+  width: 40%;
+  height: 15%;
+  opacity: 0;
+}

@@ -1,0 +1,114 @@
+/* .root {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/src/assets/hero/mobile-assets/herobg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.socialLogos {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.socialLogos button {
+    background-color: transparent;
+}
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.contract{
+    cursor: pointer;
+    background-image: url("src/assets/hero/explosion.png");
+    background-size: 100% 100%;
+    width: max-content;
+    font-size: 1.4rem;
+    padding: 3rem 5rem;
+    text-decoration: underline;
+}
+
+.dialog {
+    width: 90%;
+} */
+
+.container {
+  background-image: url("/src/assets/hero/heromobilebg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.trump {
+  width: 86%;
+  position: relative;
+  top: 40px;
+}
+
+.description {
+  padding-top: 200px;
+  text-align: center;
+  font-family: chunq;
+  font-size: 2.5rem;
+  color: white;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.contract {
+  text-align: center;
+  font-family: chunq;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 0.5px;
+  stroke: black;
+  stroke-width: 1px;
+  width: 88%;
+  /* padding: 53px; */
+  text-align: center;
+  margin: auto;
+  word-wrap: break-word;
+
+}
+
+.logo {
+  position: fixed;
+  width: 40%;
+  top: 20px;
+  z-index: 108;
+}
+
+.button {
+  cursor: pointer;
+  width: 70%;
+}

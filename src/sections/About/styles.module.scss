@@ -1,0 +1,109 @@
+.root {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #ed2445;
+  background-image: url(./../../assets/about/agenda.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.lab {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 80%;
+  z-index: 100;
+}
+
+.prof {
+  position: absolute;
+  width: 36%;
+  top: 5%;
+  left: 12%;
+}
+
+.about {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  right: 3%;
+  z-index: 200;
+}
+
+.paper {
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  width: 100%;
+}
+
+.contentWrapper {
+  position: absolute;
+  z-index: 300;
+  top: 20%;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 62%;
+}
+
+.content {
+  width: 100%;
+}
+
+.logoPaper {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3.5deg);
+  width: 28%;
+}
+
+.logoMain {
+  position: absolute;
+  width: 16%;
+  top: 16%;
+  right: 20%;
+  z-index: 300;
+}
+
+.scrollBtn {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logoMainLeft {
+  position: absolute;
+  bottom: 2%;
+  left: 2.5%;
+  width: 30%;
+  z-index: 300;
+}
+
+.agendaPaper {
+  position: absolute;
+  width: 44%;
+  transform: translate(-50%, 40%);
+  left: 50%;
+
+
+}
+
+.trumpAlien {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 29%;
+  z-index: 300;
+}

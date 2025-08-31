@@ -1,0 +1,84 @@
+@import "../../styles/_mixins.scss";
+
+.root {
+  min-height: 100vh;
+  background-image: url("../../assets/masterplan/crowd-frogs.png"), url("../../assets/masterplan/masterplan-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  background-position: 0% 102%, 69% 1%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  h1 {
+    font-family: "Chunq";
+    font-weight: 700;
+    font-size: 6rem;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    transform: rotate(-5deg);
+    margin: -9rem 0 0 -3rem;
+    padding: 0;
+
+    @include devices(desktop) {
+      font-size: 5rem;
+      margin: -2rem 0 0 20rem;
+    }
+  }
+  img {
+    width: 25%;
+
+    @include devices(desktop) {
+      width: 22%;
+    }
+  }
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 15% !important;
+  }
+
+  .content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (max-width: 1450px) {
+      zoom: 0.6;
+    }
+  }
+
+  .quotesContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    column-gap: 8rem;
+    img {
+      width: 32%;
+      margin: 0 0 1rem 0;
+      transform: translateY(-193%);
+
+      @include devices(desktop) {
+        width: 27%;
+        max-width: 62%;
+        margin: 0 0 0 0;
+      }
+    }
+    img:nth-child(3) {
+      margin-left: 10rem;
+      @include devices(desktop) {
+        margin-left: 4rem;
+      }
+    }
+  }
+}
